@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XCOGNET | The Cognitive Substrate</title>
-    <meta name="description" content="xCogNet: The Cognitive Substrate for the Post-LLM Era. Premium domain infrastructure for AGI, Web3 AI, and Neuro-Symbolic Systems.">
+    <title>XCOGNET | The Cognitive Foundation</title>
+    <meta name="description" content="xCogNet: The Cognitive Foundation for Next-Gen AI. Premium domain infrastructure for AGI, Web3 AI, and Neuro-Symbolic Systems.">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
             --bg-base: #030305;
             --cyan-electric: #00F0FF;
             --violet-deep: #8A2BE2;
-            --gold-lucky: #FFD700; /* 新增：幸运金 */
+            --gold-lucky: #FFD700;
             --font-head: 'Orbitron', sans-serif;
             --font-body: 'Rajdhani', sans-serif;
             --font-data: 'Share Tech Mono', monospace;
@@ -42,7 +42,7 @@
         h1, h2, h3, h4 { font-family: var(--font-head); }
         .mono { font-family: var(--font-data); }
 
-        /* --- 特效 A：X 的高能故障闪烁 --- */
+        /* --- X Symbol Animation --- */
         .x-symbol {
             display: inline-block;
             color: var(--cyan-electric);
@@ -62,7 +62,7 @@
             100% { opacity: 1; }
         }
 
-        /* --- 特效 B：COGNET 的激光渐变 --- */
+        /* --- Cognet Text Animation --- */
         .cognet-text {
             background: linear-gradient(120deg, #ffffff 20%, var(--violet-deep) 50%, var(--cyan-electric) 80%);
             background-size: 200% auto;
@@ -77,7 +77,7 @@
             100% { background-position: 200% 50%; }
         }
 
-        /* --- Lucky 7 Badge --- */
+        /* --- Lucky Badge --- */
         .lucky-badge {
             border: 1px solid var(--gold-lucky);
             color: var(--gold-lucky);
@@ -89,7 +89,7 @@
             to { box-shadow: 0 0 15px rgba(255, 215, 0, 0.4); }
         }
 
-        /* --- 交互元素 --- */
+        /* --- UI Elements --- */
         .btn-glow {
             background: rgba(0, 240, 255, 0.1);
             border: 1px solid var(--cyan-electric);
@@ -124,7 +124,6 @@
             box-shadow: 0 0 30px rgba(0, 240, 255, 0.1);
         }
 
-        /* Horizon Cards */
         .horizon-box {
             background: rgba(255,255,255,0.03);
             border-left: 2px solid #333;
@@ -164,10 +163,10 @@
 </head>
 <body class="antialiased selection:bg-cyan-500 selection:text-black">
 
-    <!-- 顶部状态栏 -->
+    <!-- Navbar -->
     <nav class="w-full border-b border-white/5 p-4 flex justify-between items-center mono text-[10px] uppercase tracking-widest text-gray-500">
         <div><i class="fa-solid fa-circle text-green-500 text-[6px] mr-2 animate-pulse"></i>System Online</div>
-        <div>ID: XC-PRIME-V5</div>
+        <div>ID: XC-PRIME-V6</div>
     </nav>
 
     <!-- Main Content -->
@@ -175,7 +174,7 @@
 
         <!-- HERO SECTION -->
         <section class="text-center mb-24 relative z-10">
-            <!-- 标签组 -->
+            <!-- Badges -->
             <div class="flex flex-wrap justify-center gap-4 mb-8">
                 <div class="inline-flex items-center gap-2 border border-cyan-500/30 bg-cyan-900/10 px-4 py-1 rounded-full">
                     <span class="w-2 h-2 bg-cyan-400 rounded-full animate-ping"></span>
@@ -188,16 +187,17 @@
                 </div>
             </div>
             
-            <!-- 核心标题 -->
-            <h1 class="text-6xl md:text-8xl lg:text-[10rem] font-black mb-6 tracking-tighter leading-none select-none">
+            <!-- Brand Name (Added translate="no" to prevent partial translation errors) -->
+            <h1 class="text-6xl md:text-8xl lg:text-[10rem] font-black mb-6 tracking-tighter leading-none select-none" translate="no">
                 <span class="x-symbol">X</span><span class="cognet-text">COGNET</span>
             </h1>
             
+            <!-- Updated Tagline: Replaced "Substrate" and "Post-LLM" -->
             <p class="text-xl md:text-2xl text-gray-400 font-light tracking-wide max-w-3xl mx-auto leading-relaxed mt-8">
-                The Cognitive Substrate for the <span class="text-white font-medium">Post-LLM Era</span>
+                The Cognitive <span class="text-white font-medium">Foundation</span> for <span class="text-white font-medium">Next-Gen AI</span>
             </p>
 
-            <!-- 数据点 -->
+            <!-- Data Points -->
             <div class="flex flex-wrap justify-center gap-6 md:gap-12 mt-12 text-xs mono text-gray-600 uppercase tracking-widest">
                 <span class="text-cyan-600">[ .COM + .AI ]</span>
                 <span>[ PROTOCOL LAYER ]</span>
@@ -205,7 +205,7 @@
             </div>
         </section>
 
-        <!-- DEPLOYMENT HORIZONS (Use Cases) -->
+        <!-- DEPLOYMENT HORIZONS -->
         <section class="max-w-6xl mx-auto mb-24">
             <div class="flex items-end justify-between mb-8 border-b border-white/10 pb-2">
                 <h2 class="text-2xl font-bold text-white">Deployment Horizons</h2>
@@ -222,7 +222,8 @@
                     <div class="space-y-4">
                         <div class="horizon-box">
                             <h4 class="text-lg text-white mb-1"><i class="fa-solid fa-project-diagram mr-2 text-cyan-500"></i>Neuro-Symbolic AI & RAG</h4>
-                            <p class="text-xs text-gray-400">Perfect for systems fusing Neural Networks with Knowledge Graphs to solve LLM hallucinations.</p>
+                            <!-- Updated: "solve AI hallucinations" to avoid Law Master confusion -->
+                            <p class="text-xs text-gray-400">Perfect for systems fusing Neural Networks with Knowledge Graphs to solve AI hallucinations.</p>
                         </div>
                         <div class="horizon-box">
                             <h4 class="text-lg text-white mb-1"><i class="fa-brands fa-hive mr-2 text-cyan-500"></i>Web3 & Decentralized AI</h4>
@@ -343,9 +344,9 @@
             </div>
         </section>
 
-        <!-- LEGAL (UPDATED) -->
+        <!-- LEGAL (SAFE) -->
         <section class="max-w-4xl mx-auto border-t border-white/5 pt-8 text-center opacity-60 hover:opacity-100 transition-opacity duration-500">
-            <h4 class="mono text-[10px] text-gray-600 mb-3 uppercase">/// COMPLIANCE_LOG_V5</h4>
+            <h4 class="mono text-[10px] text-gray-600 mb-3 uppercase">/// COMPLIANCE_LOG_V6</h4>
             <p class="text-[10px] text-gray-500 leading-relaxed max-w-2xl mx-auto font-mono">
                 NOTICE: xCogNet is an independent brand for next-generation cognitive infrastructure. 
                 It is not affiliated with MedCognetics, Inc. (cognet.ai) or Cognet9 Co., Ltd. 
